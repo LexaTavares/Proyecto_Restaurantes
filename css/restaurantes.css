@@ -5,7 +5,11 @@ div#map{
 }
 li{
   list-style: none;
+  display: none;
 }
 .div{
   width: 15%;
+}
+.impresion{
+  height: 400px;
 }

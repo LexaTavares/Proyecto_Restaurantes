@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Resturantes</title>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="css/restaurantes.css">
-  </head>
-  <body>
-    <section>
-      <h2>Restaurantes</h2>
-    </section>
+
+<head>
+  <meta charset="utf-8">
+  <title>Resturantes</title>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/restaurantes.css">
+</head>
+
+<body>
+  <section>
+    <h2>Restaurantes</h2>
+  </section>
+  <form id="search-form">
     <div class="input-field div">
-      <input id="buscar" type="text" class="validate">
-      <label for="buscar"><i class="tiny material-icons">search</i>Buscar</label>
+      <input id="search" type="search" class="validate">
+      <label for="search"><i class="tiny material-icons">search</i>Buscar</label>
     </div>
-    <section>
-      <div id="map"></div>
-    </section>
-    <ul>
-      <li>La Casa de Toño</li>
-      <li>Pizza del Perro Negro</li>
-      <li>Máximo Bistrot</li>
-      <li>Carnívoro</li>
-      <li>La Bipolar</li>
-      <li>Restaurant Miguel</li>
-    </ul>
+  </form>
+  <section>
+    <div id="map"></div>
+  </section>
+  <section class="impresion container">
+
+  </section>
 
 
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/restaurantes.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC60q5ykEqMDdWAti3H_YTqtY3UuAMR6rw&callback=initMap">
-    </script>
-  </body>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/restaurantes.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC60q5ykEqMDdWAti3H_YTqtY3UuAMR6rw&callback=initMap">
+  </script>
+</body>
+
 </html>
